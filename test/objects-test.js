@@ -5,6 +5,7 @@ const babel = require('babel-core')
 const fs = require('fs')
 const jsdom = require('mocha-jsdom')
 const path = require('path')
+/////////////////////////
 
 describe('objects', () => {
   const babelResult = babel.transformFileSync(
